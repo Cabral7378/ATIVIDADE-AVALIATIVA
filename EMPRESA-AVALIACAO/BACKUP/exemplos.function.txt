@@ -1,0 +1,242 @@
+exemplo 1)
+function mostrarMensagem() {
+    console.log("Olá!")
+}
+
+mostrarMensagem()
+
+exemplo 2)
+function dobro() {
+    let numero = 10
+    console.log(numero*2)
+}
+dobro()
+
+exemplo 3)
+function dobro(numero) {
+    return numero * 2;
+}
+console.log(dobro(10))
+
+exemplo 4)
+function dobro(numero) {
+    return numero * 2;
+}
+console.log(dobro(10))
+
+
+exemplo 5)
+function dobro(numero) {
+    return numero * 2
+}
+
+let resultado1 = dobro(10)
+let resultado2 = dobro(20)
+let resultado3 = dobro(30)
+
+console.log(resultado1)
+console.log(resultado2)
+console.log(resultado3)
+
+exemplo 6)
+function somar(a, b) {
+    return a + b
+}
+
+let resultado = somar(10, 20)
+console.log(resultado)
+
+exemplo 7)
+function subtrair(a, b) {
+    return a - b;
+}
+
+console.log(subtrair(10, 3));
+console.log(subtrair(3, 10));
+
+exemplo 8)
+function calcularAreaRetangulo(largura, altura) {
+    return largura * altura;
+}
+
+let area = calcularAreaRetangulo(10, 5);
+
+console.log("Área:", area);
+
+
+exemplo 9)
+function calcularAreaRetangulo(largura, altura) {
+    return largura * altura;
+}
+
+console.log(calcularAreaRetangulo(10, 20));
+console.log(calcularAreaRetangulo(15, 30));
+console.log(calcularAreaRetangulo(25, 40));
+
+
+exemplo 10)
+function calcularMedia(nota1, nota2, nota3) {
+    return (nota1 + nota2 + nota3) / 3;
+}
+
+let media = calcularMedia(7, 8, 9);
+
+console.log(media);
+
+
+exemplo 11)
+function apresentar(nome) {
+    return "Olá, " + nome + "!";
+}
+
+console.log(apresentar("Carlos"));
+
+
+exemplo 12)
+function verificarMaioridade(idade) {
+    if (idade >= 18) {
+        return "Maior de idade";
+    } else {
+        return "Menor de idade";
+    }
+}
+
+console.log(verificarMaioridade(20));
+console.log(verificarMaioridade(15));
+
+
+exemplo 13)
+function somar(a, b) {
+    return a + b;
+}
+
+let numero1 = parseFloat(prompt("Digite o primeiro número:"));
+let numero2 = parseFloat(prompt("Digite o segundo número:"));
+
+let resultado = somar(numero1, numero2);
+
+alert("Resultado: " + resultado);
+
+
+exemplo 14)
+function mostrarTitulo() {
+    console.log("SISTEMA ESCOLAR");
+}
+
+mostrarTitulo();
+
+
+exemplo 15)
+function mostrarAluno(nome) {
+    console.log("Aluno:", nome);
+}
+
+mostrarAluno("Ana");
+
+
+exemplo 16)
+function mostrarMensagem(nome) {
+    console.log("Olá, " + nome);
+}
+
+mostrarMensagem("Humberto");
+
+
+exemplo 17)
+function dobro(numero) {
+    return numero * 2;
+}
+
+console.log(dobro(5));
+
+
+exemplo 18)
+function calcularMedia(nota1, nota2, nota3) {
+    return (nota1 + nota2 + nota3) / 3;
+}
+
+function verificarSituacao(media) {
+    if (media >= 6) {
+        return "Aprovado";
+    } else {
+        return "Reprovado";
+    }
+}
+
+let nome = prompt("Digite o nome do estudante:");
+
+let nota1 = parseFloat(prompt("Digite a primeira nota:"));
+let nota2 = parseFloat(prompt("Digite a segunda nota:"));
+let nota3 = parseFloat(prompt("Digite a terceira nota:"));
+
+let media = calcularMedia(nota1, nota2, nota3);
+
+let situacao = verificarSituacao(media);
+
+alert(
+    "Aluno: " + nome +
+    "\nMédia: " + media.toFixed(2) +
+    "\nSituação: " + situacao
+);
+
+
+exemplo 19)
+function somar(a, b) {
+    return a + b;
+}
+
+somar(10, 20);
+
+
+exemplo 20)
+function subtrair(a, b) {
+    return a - b;
+}
+
+console.log(subtrair(20, 5));
+console.log(subtrair(5, 20));
+
+
+exemplo 21)
+function mostrarMensagem() {
+    console.log("Olá!");
+}
+
+mostrarMensagem()
+
+exemplo 22)
+function somar(a, b) {
+    console.log(a + b);
+}
+
+somar(10, 20);
+
+
+exemplo 23)
+function somar(a, b) {
+    return a + b;
+}
+
+let resultado = somar(10, 20);
+
+alert(resultado);
+
+
+exemplo 24)
+function calcularArea(largura, altura) {
+    return largura * altura;
+}
+
+console.log(calcularArea(10, 5));
+console.log(calcularArea(20, 8));
+console.log(calcularArea(30, 10));
+
+
+exemplo 25)
+function calcularMedia(n1, n2, n3) {
+    return (n1 + n2 + n3) / 3;
+}
+
+alert(calcularMedia(7, 8, 9));
+
+

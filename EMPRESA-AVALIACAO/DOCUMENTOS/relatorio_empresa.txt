@@ -1,5 +1,0 @@
-RELATÓRIO DA EMPRESA
-Este documento faz parte da avaliação prática de Fundamentos para Informática.
-Objetivo:
-Organizar documentos utilizando armazenamento em nuvem.
-Salve o arquivo.
